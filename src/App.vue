@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Fuck />
     <Button />
     <Button />
     <Button />
@@ -9,11 +10,13 @@
 <script>
 
 import Button from './components/Button.vue';
+import Fuck from './components/Fuck.vue';
 
 export default {
   name: 'App',
   components: {
-    Button
+    Button,
+    Fuck
   }
 }
 </script>
